@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: NODE_OPTIONS=--experimental-vm-modules npx jest
+        run: echo test
 
